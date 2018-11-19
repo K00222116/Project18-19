@@ -10,8 +10,19 @@ $this->table->set_template($template);
 <h1>Maintain material details</h1>
 <?php  
         $this->table->set_heading(
-         'Item Description','Quantity',
-         'Item Size','Item Colour','Item Price','Total Price','Action');
+         'Part Number','Item Description',
+         'Quantity','Item Price','Total Price','Action');
+        
+        $this->table->add_row(
+         'KF2200RT','Some random Part','100','20','2000','Update');
+        $this->table->add_row(
+         'KF2286RT','Some random Part','200','10','2000','Update');
+        $this->table->add_row(
+         'KF2299PT','Some random Part','50','25','1250','Update');
+        $this->table->add_row(
+         'KB3200RT','Some random Part','150','10','1500','Update');
+        $this->table->add_row(
+         'FF3200QT','Some random Part','25','40','1000','Update');
         ?>
 <?php echo $this->table->generate();?>
 </div>
