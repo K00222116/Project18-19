@@ -81,11 +81,11 @@ body{
 <div class="dropdown">
   <button class="dropbtn">A Work</button>
   <div class="dropdown-content">
-    <a href="#">Maintain Supplier</a>
-    <a href="#">Prepare Production Materials Requirements Plan</a>
-    <a href="#">Prepare Customer Invoices</a>
-    <a href="#">Generate Lot Traveller</a>
-    <a href="#">Accept/Reject Materials Delivery from Supplier</a>
+    <a href="<?php echo site_url('HomeController/Maintain_Supplier/'); ?>">Maintain Supplier</a>
+    <a href="<?php echo site_url('HomeController/Prepare_Production_Materials_Requirements_Plan/'); ?>">Prepare Production Materials Requirements Plan</a>
+    <a href="<?php echo site_url('HomeController/Prepare_Customer_Invoices/');?>">Prepare Customer Invoices</a>
+    <a href="<?php echo site_url('HomeController/Generate_Lot_Traveller/');?>">Generate Lot Traveller</a>
+    <a href="<?php echo site_url('HomeController/Accept_Reject_Materials_Delivery_from_Supplier/');?>">Accept/Reject Materials Delivery from Supplier</a>
   </div>  
 </div>
     <div class="dropdown">
@@ -101,11 +101,11 @@ body{
       <div class="dropdown">
   <button class="dropbtn">C Work</button>
   <div class="dropdown-content">
-    <a href="#">Maintain Product Details</a>
-    <a href="#">Accept Customer Order</a>
-    <a href="#">Update Lot Traveller Traceability</a>
-    <a href="#">Convert Lot Traveller to Finished Goods Note</a>
-    <a href="#">Make Work Order(s) from Cust. Order</a>
+    <a href="<?php echo site_url('HomeController/Maintain_Product_Details/'); ?>">Maintain Product Details</a>
+    <a href="<?php echo site_url('HomeController/Accept_Customer_Order/'); ?>">Accept Customer Order</a>
+    <a href="<?php echo site_url('HomeController/Update_Lot_Traveller_Traceability/'); ?>">Update Lot Traveller Traceability</a>
+    <a href="<?php echo site_url('HomeController/Finished_Goods_Note/'); ?>">Convert Lot Traveller to Finished Goods Note</a>
+    <a href="<?php echo site_url('HomeController/Work_Order/'); ?>">Make Work Order(s) from Cust. Order</a>
   </div> 
 </div>
         <div class="dropdown">
